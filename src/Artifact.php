@@ -1,6 +1,6 @@
 <?php
 
-namespace Quan\Console\Mapper\Jenkins;
+namespace Itscaro\JsonMapper\Jenkins;
 
 class Artifact extends AbstractClass
 {

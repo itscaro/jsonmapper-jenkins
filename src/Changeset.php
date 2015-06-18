@@ -1,21 +1,21 @@
 <?php
 
-namespace Quan\Console\Mapper\Jenkins;
+namespace Itscaro\JsonMapper\Jenkins;
 
-class View extends AbstractClass
+class Changeset extends AbstractClass
 {
 
     /**
      *
-     * @var View
+     * @var ChangesetItem[]
      */
-    public $name;
-    public $url;
+    public $items;
+    public $kind;
 
     /**
      * Convert JSON string to object of this type
      * @param string $json
-     * @return View
+     * @return Changeset
      * @throws \Exception
      */
     public static function jsonToObject($json)

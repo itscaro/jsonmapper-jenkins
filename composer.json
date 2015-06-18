@@ -1,0 +1,17 @@
+{
+    "name": "itscaro/jsonmapper-jenkins",
+    "config": {
+        "autoloader-suffix": "itscaro",
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Itscaro\\JsonMapper\\Jenkins\\": "src/"
+        }
+    },
+    "require": {
+        "netresearch/jsonmapper": "*"
+    },
+    "require-dev": {
+    }
+}
